@@ -1,0 +1,22 @@
+/* Page Hero (Services) */
+.page-hero-section {
+    height: 40vh;
+    min-height: 280px;
+    position: relative;
+    background-image: url('../assets/dangerous.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.page-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.35));
+}
+
+.page-hero-copy-section {
+    padding: 110px 0 70px 0;
+    text-align: center;
+    background-color: var(--bg-white);
+    color: var(--text-dark);
+}

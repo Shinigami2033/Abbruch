@@ -1,0 +1,52 @@
+/* Projects */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.project-item {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 300px;
+    cursor: pointer;
+}
+
+.project-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: var(--transition);
+}
+
+.project-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(transparent, rgba(0,0,0,0.9));
+    padding: 20px;
+    transform: translateY(100%);
+    transition: var(--transition);
+}
+
+.project-item:hover .project-overlay {
+    transform: translateY(0);
+}
+
+.project-item:hover img {
+    transform: scale(1.1);
+}
+
+.project-overlay h4 {
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.project-overlay p {
+    color: var(--primary-color);
+    font-size: 0.9rem;
+    font-weight: 700;
+}

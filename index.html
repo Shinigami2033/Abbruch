@@ -1,0 +1,329 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="de">
+    <!-- styles wird geladen in der Reihenfolge: Base/Utilities/Buttons/Animations -> Bereiche -> Mobile Overrides -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abbruch & Recycling | Ihr Partner für Rückbau</title>
+    <!-- CSS-Reihenfolge: Base/Utilities/Buttons/Animations -> Bereiche -> Mobile Overrides -->
+    <link rel="stylesheet" href="style/base.css">
+    <link rel="stylesheet" href="style/utilities.css">
+    <link rel="stylesheet" href="style/buttons.css">
+    <link rel="stylesheet" href="style/animations.css">
+    <link rel="stylesheet" href="style/logo.css">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/hero.css">
+    <link rel="stylesheet" href="style/services.css">
+    <link rel="stylesheet" href="style/about.css">
+    <link rel="stylesheet" href="style/stats.css">
+    <link rel="stylesheet" href="style/projects.css">
+    <link rel="stylesheet" href="style/contact.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/mobil/header.css">
+    <link rel="stylesheet" href="style/mobil/hero.css">
+    <link rel="stylesheet" href="style/mobil/services.css">
+    <link rel="stylesheet" href="style/mobil/about.css">
+    <link rel="stylesheet" href="style/mobil/contact.css">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header id="main-header">
+        <div class="container header-content">
+            <div class="logo">
+                <a href="#" class="logo-lockup" aria-label="LEHWALD GmbH &amp; Co. KG">
+                    <span class="logo-topline">
+                        <img class="logo-mark-img" src="assets/dangerous_neu.png" alt="" aria-hidden="true">
+                        <span class="logo-title">LEHWALD</span>
+                        <span class="logo-subtitle">GmbH &amp; Co. KG</span>
+                    </span>
+                    <span class="logo-underline"></span>
+                    <span class="logo-tagline">Dienstleistungen im Umweltschutz und Entsorgung</span>
+                </a>
+            </div>
+            <nav class="desktop-nav">
+                <ul>
+                    <li><a href="#hero">Start</a></li>
+                    <li><a href="#services">Leistungen</a></li>
+                    <li><a href="#about">Über uns</a></li>
+                    <li><a href="#projects">Projekte</a></li>
+                    <li><a href="#contact" class="btn-nav">Kontakt</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-toggle" id="mobile-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="mobile-nav" id="mobile-nav">
+            <ul>
+                <li><a href="#hero">Start</a></li>
+                <li><a href="#services">Leistungen</a></li>
+                <li><a href="#about">Über uns</a></li>
+                <li><a href="#projects">Projekte</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <video class="hero-video" autoplay muted loop playsinline>
+            <source src="assets/video/wasserturm.mp4" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+    </section>
+    <section class="hero-copy-section">
+        <div class="container hero-content fade-in">
+            <h1>Ihr kompetenter Partner für<br>Lösungen aus einer Hand.</h1>
+            <p>Ihr zuverlässiger Partner für Abbruch, Brandschadenbeseitigung, Asbestdemontage und vieles mehr.</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">Angebot anfordern</a>
+                <a href="#services" class="btn btn-outline">Leistungen</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section bg-light">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>Unsere Leistungen</h2>
+                <div class="divider"></div>
+                <p>Wir bieten ein umfassendes Spektrum an Abbruch- und Recyclingdienstleistungen.</p>
+            </div>
+            
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <a class="service-card service-card-link fade-in" href="html/abbruch.html" aria-label="Abbruch und Rückbau">
+                    <div class="card-image">
+                        <img src="https://image.qwenlm.ai/public_source/b7687e53-ad04-4e7b-9b4b-14a277fe4324/1a29e8c5e-80cb-4d2e-8db0-077c749d8f7c.png" alt="Abbruch und Rückbau">
+                    </div>
+                    <div class="card-content">
+                        <i class="fas fa-building icon"></i>
+                        <h3>Abbruch und Rückbau</h3>
+                        <p>Sicherer und effizienter Rückbau von Wohn- und Gewerbeimmobilien mit modernstem Maschinenpark.</p>
+                    </div>
+                </a>
+
+                <!-- Service 2 -->
+                <a class="service-card service-card-link fade-in" href="html/brandschaden.html" aria-label="Brandschadensanierung">
+                    <div class="card-image">
+                        <img src="https://image.qwenlm.ai/public_source/b7687e53-ad04-4e7b-9b4b-14a277fe4324/11cf6fbd7-1030-4c0c-8748-ce73ed08d4d0.png" alt="Brandschadensanierung">
+                    </div>
+                    <div class="card-content">
+                        <i class="fas fa-recycle icon"></i>
+                        <h3>Brandschadensanierung</h3>
+                        <p>Aufbereitung von Bauschutt zu hochwertigen Recycling-Baustoffen für eine nachhaltige Kreislaufwirtschaft.</p>
+                    </div>
+                </a>
+
+                <!-- Service 3 -->
+                <a class="service-card service-card-link fade-in" href="html/holzschutz.html" aria-label="Holzschutzmittelsanierung und beschichtung">
+                    <div class="card-image">
+                        <img src="https://image.qwenlm.ai/public_source/b7687e53-ad04-4e7b-9b4b-14a277fe4324/1cbff271c-499c-4770-882f-c8e7dac3d84a.png" alt="Holzschutzmittelsanierung und beschichtung">
+                    </div>
+                    <div class="card-content">
+                         <i class="fas fa-road icon"></i>
+                         <h3>Holzschutzmittelsanierung und beschichtung</h3>
+                         <p>Komplette Räumung und Planierung von Grundstücken, bereit für die nächste Bauphase.</p>
+                     </div>
+                </a>
+
+                 <!-- Service 4 -->
+                <a class="service-card service-card-link fade-in" href="html/dach.html" aria-label="Dach- und Fassadenabbruch">
+                     <div class="card-image">
+                         <img src="https://image.qwenlm.ai/public_source/b7687e53-ad04-4e7b-9b4b-14a277fe4324/3f1c2e8d-4b5a-6d7e-8f9a-0b1c2d3e4f5a.png" alt="Dach- und Fassadenabbruch">
+                     </div>
+                     <div class="card-content">
+                         <i class="fas fa-solid fa-hammer icon"></i>
+                         <h3>Dach- und Fassadenabbruch</h3>
+                         <p>Sicherer Abbruch von Dächern und Fassaden unter Berücksichtigung von Sicherheits- und Umweltstandards.</p>
+                     </div>
+                </a>
+
+                 <!-- Service 5 -->
+                <a class="service-card service-card-link fade-in" href="html/asbest.html" aria-label="Asbest und Gefahrenstoffdemontage">
+                     <div class="card-image">
+                         <img src="https://image.qwenlm.ai/public_source/b7687e53-ad04-4e7b-9b4b-14a277fe4324/4a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d.png" alt="Asbest und Gefahrenstoffdemontage">
+                     </div>
+                     <div class="card-content">
+                         <i class="fas fa-biohazard icon"></i>
+                         <h3>Asbest und Gefahrenstoffdemontage</h3>
+                         <p>Fachgerechte Entfernung und Entsorgung von Asbest und anderen gefährlichen Stoffen.</p>
+                     </div>
+                </a>
+
+                 <!-- Service 6 -->
+                <a class="service-card service-card-link fade-in" href="html/entsorgung.html" aria-label="Entsorgung kontaminierter Böden">
+                     <div class="card-image">
+                         <img src="https://image.qwenlm.ai/public_source/b7687e53-ad04-4e7b-9b4b-14a277fe4324/5b6c7d8e-9f0a-1b2c-3d4e-5f6a7b8c9d0e.png" alt="Entsorgung kontaminierter Böden">
+                     </div>
+                     <div class="card-content">
+                         <i class="fas fa-trash icon"></i>
+                         <h3>Entsorgung kontaminierter Böden</h3>
+                         <p>Umweltgerechte Entsorgung und Sanierung von kontaminierten Böden und Grundwasser.</p>
+                     </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container about-container">
+            <div class="about-text fade-in">
+                <h2>Über uns</h2>
+                <div class="divider left"></div>
+                <p>Seit über 20 Jahren stehen wir für Qualität, Sicherheit und Zuverlässigkeit im Abbruchgewerbe. Unser Team aus zertifizierten Fachkräften sorgt dafür, dass jedes Projekt – ob klein oder groß – termingerecht und budgetkonform abgeschlossen wird.</p>
+                <p>Wir legen größten Wert auf Umweltschutz und Recyclingquoten, um Ressourcen für die Zukunft zu schonen.</p>
+                <ul class="feature-list">
+                    <li><i class="fas fa-check-circle"></i> Zertifizierte Entsorgungsfachbetriebe</li>
+                    <li><i class="fas fa-check-circle"></i> Modernster Maschinenpark</li>
+                    <li><i class="fas fa-check-circle"></i> 24/7 Erreichbarkeit im Notfall</li>
+                </ul>
+            </div>
+            <div class="about-image fade-in">
+                <img src="https://image.qwenlm.ai/public_source/b7687e53-ad04-4e7b-9b4b-14a277fe4324/19847f1b4-e457-49bd-a8ae-7bffc71a2f8b.png" alt="Recycling Material">
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats / Video Placeholder Section -->
+    <section class="stats-section">
+        <div class="container stats-grid">
+            <div class="stat-item fade-in">
+                <h3>20+</h3>
+                <p>Jahre Erfahrung</p>
+            </div>
+            <div class="stat-item fade-in">
+                <h3>500+</h3>
+                <p>Abgeschlossene Projekte</p>
+            </div>
+            <div class="stat-item fade-in">
+                <h3>100%</h3>
+                <p>Kundenzufriedenheit</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section bg-light">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>Aktuelle Projekte</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-item fade-in">
+                    <img src="https://image.qwenlm.ai/public_source/b7687e53-ad04-4e7b-9b4b-14a277fe4324/1a29e8c5e-80cb-4d2e-8db0-077c749d8f7c.png" alt="Projekt 1">
+                    <div class="project-overlay">
+                        <h4>Industriehalle Nord</h4>
+                        <p>Komplettrückbau</p>
+                    </div>
+                </div>
+                <div class="project-item fade-in">
+                    <img src="https://image.qwenlm.ai/public_source/b7687e53-ad04-4e7b-9b4b-14a277fe4324/11cf6fbd7-1030-4c0c-8748-ce73ed08d4d0.png" alt="Projekt 2">
+                    <div class="project-overlay">
+                        <h4>Wohnkomplex West</h4>
+                        <p>Entkernung & Abbruch</p>
+                    </div>
+                </div>
+                <div class="project-item fade-in">
+                    <img src="https://image.qwenlm.ai/public_source/b7687e53-ad04-4e7b-9b4b-14a277fe4324/1cbff271c-499c-4770-882f-c8e7dac3d84a.png" alt="Projekt 3">
+                    <div class="project-overlay">
+                        <h4>City Center Sanierung</h4>
+                        <p>Bodenaushub</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <div class="contact-wrapper fade-in">
+                <div class="contact-info">
+                    <h2>Kontaktieren Sie uns</h2>
+                    <p>Haben Sie Fragen oder benötigen Sie ein unverbindliches Angebot? Wir sind für Sie da.</p>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Markt 23, 18258 Schwaan</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+49 (0) 38207 76 79 66</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>info@abbruch-profi.de</span>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Ihr Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Ihre E-Mail" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="5" placeholder="Ihre Nachricht" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary full-width">Nachricht senden</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-col">
+                <a href="#" class="logo-lockup logo-lockup--footer" aria-label="LEHWALD GmbH &amp; Co. KG">
+                    <span class="logo-topline">
+                        <img class="logo-mark-img" src="assets/dangerous_neu.png" alt="Logo" aria-hidden="true">
+                        <span class="logo-title">LEHWALD</span>
+                        <span class="logo-subtitle">GmbH &amp; Co. KG</span>
+                    </span>
+                    <span class="logo-underline"></span>
+                    <span class="logo-tagline">Dienstleistungen im Umweltschutz und Entsorgung</span>
+                </a>
+                <br>    </br>
+                <p>Ihr Partner für professionellen Rückbau und Recycling.</p>
+            </div>
+            <div class="footer-col">
+
+                <h4>Links</h4>
+                <ul>
+                    <li><a href="#hero">Start</a></li>
+                    <li><a href="#services">Leistungen</a></li>
+                    <li><a href="#impressum">Impressum</a></li>
+                    <li><a href="#datenschutz">Datenschutz</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Social Media</h4>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 20XX LEHWALD GmbH & Co. KG. Alle Rechte vorbehalten.</p>
+        </div>
+    </footer>
+
+    <script src="scripts/scripts.js"></script>
+</body>
+</html>
+                    

@@ -1,0 +1,29 @@
+:root {
+    --primary-color: #ff6600; /* Safety Orange */
+    --primary-dark: #e65c00;
+    --text-dark: #333333;
+    --text-light: #666666;
+    --text-lighter: #ffffff;
+    --bg-white: #ffffff;
+    --bg-light: #dfdfdf;
+    --bg-dark: #222222;
+    --transition: all 0.3s ease;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-dark);
+    line-height: 1.6;
+    background-color: var(--bg-white);
+    overflow-x: hidden;
+}

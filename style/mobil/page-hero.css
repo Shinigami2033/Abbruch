@@ -1,0 +1,10 @@
+@media (max-width: 768px) {
+    .page-hero-section {
+        height: 28vh;
+        min-height: 200px;
+    }
+
+    .page-hero-copy-section {
+        padding: 90px 0 60px 0;
+    }
+}
