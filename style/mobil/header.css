@@ -1,9 +1,10 @@
-@media (max-width: 768px) {
+@media (max-width: 1100px) {
     .desktop-nav {
         display: none;
     }
 
     .mobile-toggle {
         display: block;
+        color: var(--text-lighter);
     }
 }
